@@ -1,0 +1,385 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  
+}
+
+/*Navigation*/
+
+.nav-item {
+  color: black;
+  font-family: 'Nunito Sans' sans-serif;
+  
+}
+
+nav {
+  padding: 10px 0;
+  background-color: transparent;
+}
+
+nav a {
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav li {
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.navbar-collapse {
+  padding-top: 20px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #10C9C3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.header-box {
+  min-height: 660px;
+  background: rgb(233,233,233);
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+.prim-nav li{
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+/*Jumbotron*/
+.top {
+  background-image: url("images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
+  background-size: cover;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron{
+  background: none;
+}
+
+
+.h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.info  {
+  color:  grey;
+  line-height: 2;
+  font-family: Montserrat;
+}
+
+.btn {
+  background-color:#10C9C3;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn:hover {
+  color: white;
+}
+.display-4 {
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.hero-info {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.mb-4 {
+  color: black;
+}
+
+/*About Us*/
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 40px;
+}
+
+.signature {
+  padding-top: 20px;
+  padding-button: 20px;
+}
+
+.content {
+  padding-top: 20px;
+  font-family: Montserrat;
+}
+
+.content h3 {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+.content p {
+  color: #787878;
+}
+
+.about {
+  color: #787878;
+}
+
+/*Progress*/
+.background {
+  background-color: #F5F5F5;
+}
+
+.watch {
+  width: 100%;
+}
+
+.progress {
+  height: 6px;
+  
+}
+
+.progress-bar {
+  background-color: #10C9C3;
+}
+
+.bottom {
+  padding-top: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.skills {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+
+/*Icon*/
+.icon {
+  background-color: #10C9C3;
+  position: relative;
+  display: flex;
+  
+}
+
+.numbers{
+  
+  background: rgb(16, 201, 195);
+  color: #fff;
+  padding: 4em 0;
+}
+
+
+.numbers .col{
+  margin: 0;
+  padding: 0;
+}
+
+
+.numbers {
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  
+}
+
+.middle {
+  background-color: black;
+  
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project {
+  font-size: 20px;
+  
+}
+
+
+
+.images:hover .middle {
+  opacity: 0.5;
+}
+
+.eye {
+  padding-top: 40%;
+  color: white;
+  font-size: 16px;
+  
+}
+
+.blank {
+  background-color: #F5F5F5;
+  color: #F5F5F5;
+}
+
+/*Service*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service {
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.hopkins {
+  background-color: #10C9C3;
+  padding-top: 30px;
+}
+
+.quote {
+  line-height: 1.5;
+  color: white;
+}
+
+/*Hopkins*/
+
+.hopkins p {
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.quote h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
+.wood {
+  padding-left: 10px;
+}
+
+/*Form*/
+
+
+/*Form*/
+.form {
+  background-color: #F5F5F5;
+}
+
+.formtitle {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.agency {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 10px;
+}
+
+.form-control {
+  border-radius: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: #F5F5F5;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.text-uppercase p { 
+  color: white !important;
+}
+
+.piroll {
+  color: white;
+  padding-top: 40px;
+}
+
+.footer{
+  text-align: center;
+  background:  rgb(20, 20, 20) !important;
+  font-size: 15px;
+  color: rgb(188, 188, 188);
+  padding: 4em 0;
+}
+
+.footer h3{
+  color: #fff;
+}
+
+.footer-col-1{
+    padding-right: 16em;
+  }
+
+  .footer-col-2{
+    padding-right: 8em;
+  }
+
+  .footer-col-3{
+    padding-right: 3em;
+  }
+
+  .footer-col-4{
+    margin-right: auto;
+  }
+
+
+
+.dark {
+  background-color: black;
+  
+}
+
+.design {
+  color: rgb(188, 188, 188);
+  padding-top: 40px;
+}
+
+.robiruk {
+  color: rgb(188, 188, 188);
+  
+}
+
+.pad {
+  padding-top: 10px;
+}
+
+
+
