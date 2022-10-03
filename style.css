@@ -1,4 +1,4 @@
-html, body {
+ html, body {
   height: 100%;
   width: 100%;
   scroll-behavior: smooth;
@@ -273,6 +273,9 @@ ul {
 .quote {
   line-height: 1.5;
   color: white;
+  font-family: Monteserrat;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 /*Hopkins*/
@@ -285,7 +288,7 @@ ul {
 }
 
 .quote h2 {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
   text-align: center;
 }
